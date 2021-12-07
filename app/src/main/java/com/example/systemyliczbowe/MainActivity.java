@@ -22,10 +22,12 @@ import com.example.systemyliczbowe.kalkulator.OperationSubtract;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Number base converter fields
     Converter converter = new Converter();
     TextView conversionResultTextView;
     EditText conversionInput;
 
+    // Calculator fields
     Calculator calculator = new Calculator();
     String operation;
     TextView textViewL1, textViewL2;
@@ -46,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.calcRes);
     }
 
+    // Number base converter methods
+
     public void convertNumber(View view) {
         int radioId = ((RadioGroup) findViewById(R.id.radioGroup)).getCheckedRadioButtonId();
         String system = ((RadioButton) findViewById(radioId)).getText().toString();
@@ -63,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
         }
         conversionResultTextView.setText(converter.convert(number));
     }
+
+    // Calculator methods
 
     public void changeOperation(View view) {
         this.operation = ((Button) view).getText().toString();
