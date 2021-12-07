@@ -1,4 +1,4 @@
-package com.example.systemyliczbowe.kalkulator;
+package com.example.systemyliczbowe.Calculator;
 
 public class OperationDivide implements Operation {
 

@@ -14,11 +14,11 @@ import com.example.systemyliczbowe.NumberConverter.ConversionToBin;
 import com.example.systemyliczbowe.NumberConverter.ConversionToHex;
 import com.example.systemyliczbowe.NumberConverter.ConversionToOct;
 import com.example.systemyliczbowe.NumberConverter.Converter;
-import com.example.systemyliczbowe.kalkulator.Calculator;
-import com.example.systemyliczbowe.kalkulator.OperationAdd;
-import com.example.systemyliczbowe.kalkulator.OperationDivide;
-import com.example.systemyliczbowe.kalkulator.OperationMultiply;
-import com.example.systemyliczbowe.kalkulator.OperationSubtract;
+import com.example.systemyliczbowe.Calculator.Calculator;
+import com.example.systemyliczbowe.Calculator.OperationAdd;
+import com.example.systemyliczbowe.Calculator.OperationDivide;
+import com.example.systemyliczbowe.Calculator.OperationMultiply;
+import com.example.systemyliczbowe.Calculator.OperationSubtract;
 
 public class MainActivity extends AppCompatActivity {
 
